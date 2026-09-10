@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Editors / OS cruft
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# BookPrep project files -- these are user *data* (scanned page images,
+# retouch masks, per-project settings), not source code, and can be
+# large. Don't ship someone's in-progress book inside the repo.
+*.bookprep.json
+*.bookprep.json_data/
+
+# Anything a run of the app might drop in the working directory
+/output/
+/exports/
+*.pdf
+*.png
+!docs/**/*.png
